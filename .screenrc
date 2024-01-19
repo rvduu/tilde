@@ -1,0 +1,17 @@
+# Start at window 1
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
+
+# Use 256 colors
+term screen-256color
+
+# Informative statusbar
+hardstatus alwayslastline '%{= G}[ %{G}%H %{g}][%= %{= w}%?%-Lw%?%{= R}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{y}Load: %l %{g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+
+# Turn welcome message off
+startup_message off
+
+# Use persistent ssh Agent socket
+setenv SSH_AUTH_SOCK ~/.ssh/ssh_auth_sock
