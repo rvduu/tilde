@@ -8,3 +8,6 @@ Make sure the following packages are installed:
 and change the user's shell to zsh:
 
     chsh -s /usr/bin/zsh
+
+### Credits
+The VIM color scheme: https://github.com/nicknikolov/dark-matter.vim
