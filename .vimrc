@@ -3,6 +3,7 @@ syntax enable
 filetype indent on
 set number
 set modeline
+set modelines=5
 
 " Change color schema because the default is hard to read in tmux
 colorscheme dark_matter
