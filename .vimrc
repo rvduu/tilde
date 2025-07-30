@@ -5,9 +5,6 @@ set number
 set modeline
 set modelines=5
 
-" Change color schema because the default is hard to read in tmux
-colorscheme dark_matter
-
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
